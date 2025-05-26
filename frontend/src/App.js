@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ClaimForm from './components/ClaimForm';
 import AdminDashboard from './components/AdminDashboard';
+import ClaimPDF from './components/ClaimPDF';
 
 function App() {
   return (
