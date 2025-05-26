@@ -1,0 +1,86 @@
+/* AdminDashboard.css */
+
+/* Layout & Typography */
+.admin-dashboard {
+  padding: 2rem;
+  background: #f4f6f8;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e2e2e;
+}
+
+/* Headings */
+.dashboard-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Table styling */
+.dashboard-summary {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+  overflow-x: auto;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border: 1px solid #e0e0e0;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.dashboard-table th {
+  background-color: #f1f1f1;
+  font-weight: 600;
+}
+
+/* Buttons */
+.print-button {
+  display: inline-block;
+  background-color: #4e73df;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.print-button:hover {
+  background-color: #3751c5;
+}
+
+.print-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* No data note */
+.no-data {
+  color: #999;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+/* Chart section */
+.charts {
+  margin-bottom: 2.5rem;
+}
+
+.charts h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 1.5rem 0 1rem;
+  color: #333;
+}
